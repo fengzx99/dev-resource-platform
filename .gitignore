@@ -1,0 +1,56 @@
+# Host configuration, credentials, runtime state and user data
+/.remote-dev/
+/.remote-dev*.json
+/.env
+/.env.*
+/secrets/
+/runtime/
+/data/
+/artifacts/
+/reports/
+/config/demo-key.pub
+/ssh-validation*/
+
+# Images and offline dependencies are distributed separately
+/vendor/
+*.tar
+*.tar.gz
+*.tgz
+*.dump
+/*.sql
+*.sqlite*
+*.db
+*.partial
+*.bundle
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local development files
+/node_modules/
+/.venv/
+/venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+.coverage
+htmlcov/
+
+# Preserve historical operational scripts on disk, outside the maintained repository
+/scripts/*
+!/scripts/bootstrap.py
+!/scripts/deploy_node.py
+!/scripts/backup.py
+!/scripts/initialize_release.py
+!/scripts/package_release.py
+!/scripts/history_backup.py
+!/scripts/upgrade_monitoring.py
+!/scripts/upgrade_history.py
+
+# Historical live acceptance helpers can mutate real accounts/workspaces
+/tests/integration*.py
+/tests/*_live.py

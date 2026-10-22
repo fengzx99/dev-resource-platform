@@ -1,0 +1,27 @@
+{
+  "snapshot_date": "2026-10-22",
+  "application_baseline": "1.1.0",
+  "offline_release": "2026.10.21",
+  "description": "Application and workspace sources matched the active management project before the initial Git import. Runtime state and credentials are excluded.",
+  "sha256": {
+    "app/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "app/auth.py": "d15ed6365cb9acdea25626928771b3b588aaf863335fdd8ece2783680b0d3e57",
+    "app/executor.py": "cdd83dc638bccf0dccf376e271e0c9a925895cdf1795c8d85f9e7fc307b0ec92",
+    "app/history.py": "e8f0688e642fd2ed8226d7f600f138c5ceca2cec9375219d0e4836b22e2e2f68",
+    "app/main.py": "08371bf8e2115227d4481c7d22f9503a10931d2565337bd6eb7ec4ecd76dce50",
+    "app/models.py": "2b729aa93aac8864015f7609e369d55b9e2e0080742952294ee61da08251b743",
+    "app/monitoring.py": "6934d3bfe3e3765460ab2b85abdca98fb86f1b653a535081dd3ef5b549ecc6b9",
+    "app/nodes.py": "440c908799fb40af7ffdbff556553e7ba1440ac905a972d702d9f6838bebf1fe",
+    "app/policy.py": "ec558016388b19e6fb4ed59102c1d8ffb4c30fe760df2cc7c76b31cc851d5c79",
+    "app/static/app.js": "d38272738200a3e2b89ad9ded12e7ea9999ad9fb0ee73f59d6ab380e7c0103d5",
+    "app/static/history.css": "8e8a91322d72f67cdf6b3b82d146c7651af2de4043d35d24dd0c9c38a2b4a73a",
+    "app/static/history.js": "31299bcfc753007b522ad5cfcc5fde2cfae5d585e41358fcae445a8544c521be",
+    "app/static/index.html": "77b3e71a45c08f8702b107dbe763eec60a9f2f05107fce69cc1f1c14fffe2d29",
+    "app/static/monitoring.css": "1622d88e802a874942508a724e25abe4fd53e40dc192294adf48a3f4285ebbe6",
+    "app/static/monitoring.js": "aaa823675962af6e480ff86bb3eb922087c2746d790b3ba7ec90b4aa19a019e6",
+    "app/static/style.css": "51c7d2699dd0f3ac7f78fb62cbc3a972fd6af6940016e7b2bb8356a42d3ba5a6",
+    "app/storage.py": "500925dee27753c56a8ea82c796084ebef258b800c9844e5602796ad9123f548",
+    "workspace/Dockerfile": "caa1007303648f7dfd34b1cbca944b416447da662ce08a46c1ddac085a5fcbee",
+    "workspace/entrypoint.sh": "c38fca93a6bf9deca69fcf97ea63e170cd1eb9bec88cb35c1af7b2827e0d4441"
+  }
+}

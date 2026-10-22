@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg[binary]
+docker
+httpx
+PyJWT[crypto]
+websockets
+PyYAML
+pytest

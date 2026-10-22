@@ -1,0 +1,13 @@
+.git
+.remote-dev
+.remote-dev.json
+vendor/*.tar
+vendor/.layers
+secrets
+runtime
+data
+artifacts
+node_modules
+.venv
+__pycache__
+*.partial
